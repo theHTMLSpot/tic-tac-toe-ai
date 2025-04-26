@@ -27,6 +27,9 @@ void handleMovementInput(char input, int& x, int& y);
 bool handleMoveAndCheckWin(int x, int y);
 void resetBoard();
 void gameplay();
+int evalMove(std::vector<std::string> last_move, bool use_open_pos, bool ai_is_x);
+char get_win_value(int x, int y);
+
 
 extern char board[3][3];
 extern bool done;

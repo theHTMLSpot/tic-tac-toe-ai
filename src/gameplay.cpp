@@ -10,7 +10,6 @@ void easy(bool aivp) {
         // Check if it's the AI's turn
         if (o == aivp) {
             std::cout << "AI's turn...\n";
-            usleep(1000000);
             std::cout << "AI is making a move...\n";
               // Simulate AI thinking time
             randomMove(aivp); 

@@ -87,10 +87,8 @@ void resetBoard() {
 // Function to insert a move into the board
 int insert(int x, int y, bool o) {
     if (board[y][x] != ' ') {
-        
         return 1;
     }
-
     board[y][x] = o ? 'O' : 'X';
     return 0;
 }
